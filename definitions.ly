@@ -19,7 +19,8 @@ markMDC = {
 tempoI = \tempoMarkup "Andante"
 tempoII = \tempoMarkup "Allegro"
 tempoIII = \tempoMarkup "Menuetto"
-tempoIIIb = \tempoMarkup "Trio"
+  tempoIIIb = \tempoMarkup "Trio"
+tempoIV = \tempoMarkup "Allegro"
 
 
 \include "notes/vl1.ly"

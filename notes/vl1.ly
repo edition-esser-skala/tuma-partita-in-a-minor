@@ -186,3 +186,81 @@ IIIViolinoI = {
     a r4 \markMDC \bar ":|." %58 finis
   }
 }
+
+IVViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \minor \time 2/4 \tempoIV
+    \partial 8 a''8\fE a,( c) h( d)
+    c a r e
+    a( c) h( d)
+    c a r4
+    f'8( a) a,( c) %5
+    h g! r4
+    e'8( g) g,( b)
+    a f r4
+    cis'8( d) d( e)
+    e( f) f( a,) %10
+    gis( a) a( h)
+    h d \appoggiatura d c4\trill
+    h8 e \appoggiatura d c4\trill_\critnote
+    h r
+    g'! r %15
+    r h
+    r h
+    r a
+    h16 fis g fis h a g fis
+    g g a g c h a g %20
+    fis fis g fis h a g fis
+    e e fis e a g fis e
+    dis8 fis h h,
+    r a\p c! fis,
+    r fis a dis, %25
+    r h'16(\f cis) cis( dis) dis( e)
+    e e, c' a \appoggiatura g8 fis4\trillE \noBreak
+    e r8 \bar ":|.|:" r \noBreak
+    r4 h'~ \noBreak
+    h e8 e, %30
+    r4 e'~
+    e a8 a,
+    r4 a'~
+    a d8 d,
+    b'( fis) fis( g) %35
+    a( f) e( d)
+    cis a f'4~
+    f e~
+    e d~
+    d cis %40
+    d16 a' b a d c! b a
+    g g a g c b a g
+    f f g f b a g f
+    e e f e a g f e
+    d d e f e d c h! %45
+    c a f' e d c h a
+    gis8 h\p a( c)
+    h gis r4
+    cis8( e) d( f)
+    e cis r4 %50
+    fis8( a) g!( b)
+    a fis r4
+    b8 b, a' a,
+    g' g, f'! f,!
+    d'' d, c'! c,! %55
+    \appoggiatura c' h!4 r
+    r e,\f
+    r e
+    r d\trill
+    e r %60
+    a, c'
+    r h
+    r a\trill
+    h r
+    gis\pE r %65
+    gis r
+    a8 e16(\fE fis) fis( gis) gis( a)
+    a a, f' d h4\trill
+    a r8 f'
+    e a,4 gis8 %70
+    a4 r8\fermata \bar ":|." %71 finis
+  }
+}

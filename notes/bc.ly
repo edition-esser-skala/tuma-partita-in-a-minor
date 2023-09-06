@@ -361,3 +361,151 @@ IIIBassFigures = \figuremode {
   r4 <_+>2
   r2. %58 finis
 }
+
+IVBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key a \minor \time 2/4 \tempoIV
+    \partial 8 r8 a'4\fE gis
+    a r
+    r8 a4 gis8
+    a4 r
+    d, f %5
+    g! r
+    c, e
+    f r
+    e d
+    cis d %10
+    e fis
+    gis a8 dis,
+    e4 a8 dis,
+    e4 r
+    e16 e g! e h' h dis h %15
+    e( dis e) fis-! e8 e
+    d16( cis d) e-! d8 d
+    c16( h c) d-! c8 c
+    h4 r
+    e, e' %20
+    r d!
+    r c
+    h r
+    h,\p r
+    h r8 a %25
+    g4 r
+    g'8\f a h h, \noBreak
+    e4 r8 \bar ":|.|:" r \noBreak
+    e4 dis \noBreak
+    e r %30
+    a gis
+    a r
+    d cis
+    d r
+    g,! a8 b %35
+    f!4 g
+    a,16 a' b a d c! b a
+    g g a g c b a g
+    f f g f b a g f
+    e e f e a g f e %40
+    f8 d d'4~
+    d c!~
+    c b~
+    b a~
+    a gis %45
+    a d,
+    e r
+    r e'8\p e,
+    R2
+    r4 a8 a, %50
+    R2
+    r4 d'8 d,
+    R2*3 %55
+    r16 e\fE f e e' d c h
+    a( gis a) h-\parenthesize-! a8 a
+    g16( fis g) a-! g8 g
+    f16( e f) g-! f8 f
+    e4 r %60
+    r a
+    r g!
+    r f
+    e r
+    e\p r %65
+    e r8 d
+    c4 r8 h\f
+    a d e e,
+    a4 r8 h
+    c d e e, %70
+    a4 r8\fermata \bar ":|." %71 finis
+  }
+}
+
+IVBassFigures = \figuremode {
+  r8 r4 <6 5>
+  r2
+  r8 <3> <2> <6 5>
+  r2
+  r4 <6 5> %5
+  r2
+  r4 <6 5->
+  r2
+  <6\\>
+  <6> %10
+  <_+>4 <7>
+  <6> <9 4>8 <7 _+>
+  <_+>4 <9 4>8 <7 _+>
+  <_+>2
+  <_!> %15
+  r4 <5 3>
+  r <6 _+>
+  r <6>
+  <5\+ _+>2
+  r2 %20
+  r4 <6 _+>
+  r <6>
+  <5\+ _+>2
+  <\t \t>
+  q4. <6\\ 4\+ 2>8 %25
+  <6>2
+  q8 <_!> <6 4> <5\+ _+>
+  r2
+  r4 <6 5 _+>
+  r2 %30
+  r4 <6 5!>
+  r2
+  <_!>4 <6 5!>
+  r2
+  <_->4. \once \bassFigureExtendersOn q8 %35
+  <6>4 <6 _->8 <5 \t>
+  <_+>2
+  <7 _->4 <7->
+  <7> q
+  <7 5-> <7 _+> %40
+  <6> <8 6->
+  <4 2> <8 6>
+  <4 2> <8 6>
+  <4 2> <8 6>
+  <4 2!> <6> %45
+  r2
+  <_+>
+  r4 q
+  r2
+  r4 q %50
+  r2
+  r4 q
+  r2*3 %55
+  <6 4>8 <5 _+>4.
+  r4 <5 3>
+  r <6>
+  r q
+  <_+>2 %60
+  r
+  r4 <6>
+  r q
+  <_+>2
+  <\t> %65
+  q4. <4\+ 2>8
+  <6>4. <6\\>8
+  r <_!> <4> <_+>
+  r4. <6\\>8
+  <6> <_!> <4> <_+> %70
+  r4. %71 finis
+}
