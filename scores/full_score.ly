@@ -3,13 +3,13 @@
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
 
-% \paper { systems-per-page = #4 }
+\paper { systems-per-page = #4 }
 
 \book {
   \bookpart {
     \section "I" "Andante"
-    % \addTocEntry
-    \paper { indent = 2\cm }
+    \addTocEntry
+    \paper { indent = 2\cm page-count = #3 }
     \score { %\articulate
       <<
         \new StaffGroup <<
@@ -33,7 +33,7 @@
         \new FiguredBass { \IBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 55 }
+      \midi { \tempo 4 = 80 }
     }
   }
 }
