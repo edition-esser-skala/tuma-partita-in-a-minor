@@ -121,3 +121,68 @@ IIViolinoII = {
     a r8\fermata \bar ":|." %49 finis
   }
 }
+
+IIIViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoIII
+    \tuplet 3/2 4 { c'8\fE d e } d4 g,
+    f\trill e g'
+    \tuplet 3/2 4 { f8 g a } d,4 c\trill
+    h g g'
+    fis8( g) g2 %5
+    c8( h) h2
+    e,8 c h a g fis \noBreak
+    g2 r4 \bar ":|.|:"
+    \tuplet 3/2 4 { h8 c d } d,4 c' \noBreak
+    h g r %10
+    \tuplet 3/2 4 { c8 d e } e,4 d'
+    c a r
+    \tuplet 3/2 4 { f'!8 g a } a,4 g'
+    f d h'
+    gis8 f! e d c h %15
+    c gis' \appoggiatura gis4 a2
+    a,8 d c4 h\trill
+    a2 r4
+    cis8(\p d) d2
+    g!8( f) f2 %20
+    h,8( c!) c2
+    \once \slurDashed f8( e) e2
+    a8 a, f' a, h c \noBreak
+    \appoggiatura c4 h2 r4 \bar ".|:-|"
+    \tuplet 3/2 4 { c8\f d e } d4 g, \noBreak %25
+    f\trill e g'
+    a8 h h2\trillE
+    c4 c, r
+    a8 f' e d c h \noBreak
+    c2 r4\fermata \bar ":|.|:" %30
+    \tempoIIIb a4\p r r \noBreak
+    e r r
+    e r r
+    d r r
+    d r r %35
+    c! r r
+    e2 a4 \noBreak
+    \appoggiatura a gis2 r4 \bar ":|.|:"
+    r a, g'!~ \noBreak
+    g f8( e) f4 %40
+    r g, f'~
+    f e8( d) e4
+    r g2~
+    g4 \once \slurDashed f8( e) f4
+    f2 d4\trill %45
+    e2 r4
+    r cis' e~
+    e d8( cis) d4
+    a r r \noBreak
+    e r r \bar ".|:-|" %50
+    c' r r \noBreak
+    h r r
+    h r r
+    a r r
+    r a d %55
+    gis,2 a4~
+    a gis2\trill
+    a r4 \markMDC \bar ":|." %58 finis
+  }
+}

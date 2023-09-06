@@ -12,12 +12,14 @@ markCritnote = {
 }
 markMDC = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Menuet da capo"
+  \mark \markup \remark "Menuetto da capo"
 }
 
 
 tempoI = \tempoMarkup "Andante"
 tempoII = \tempoMarkup "Allegro"
+tempoIII = \tempoMarkup "Menuetto"
+tempoIIIb = \tempoMarkup "Trio"
 
 
 \include "notes/vl1.ly"

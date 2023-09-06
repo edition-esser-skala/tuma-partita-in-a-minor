@@ -235,3 +235,129 @@ IIBassFigures = \figuremode {
   <6 4>4 <5 _+>
   r4. %49 finis
 }
+
+IIIBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoIII
+    c'4\fE h2
+    a8 h c4 c,
+    f2 e8 f
+    g2 h4
+    a h h, %5
+    a' g g,
+    c d d, \noBreak
+    g2 r4 \bar ":|.|:"
+    g' fis2 \noBreak
+    r4 g8( fis) g4 %10
+    a gis2
+    r4 \once \slurDashed a8( gis) a4
+    d cis2
+    r4 \once \slurDashed d8( cis) d4
+    e2 gis,4 %15
+    a c8( h) c4
+    d e e,
+    a a, e'
+    a\pE g! f
+    e \once \slurDashed d8( cis) d4 %20
+    g f e
+    d \once \slurDashed c!8( h) c4
+    f2 r4 \noBreak
+    g4 g8 f e d \bar ".|:-|"
+    c4\f h2 \noBreak %25
+    a8 h c4 e
+    f d g8 f
+    e4 c8 d e4
+    f2 g4 \noBreak
+    c,2 r4\fermata \bar ":|.|:" %30
+    \tempoIIIb r4 a\p a'~ \noBreak
+    a gis8 fis gis4
+    r a, g'~
+    g fis8 e fis4
+    r g, f'~ %35
+    f e8 d e4
+    a g f \noBreak
+    e2 r4 \bar ":|.|:"
+    a, r r \noBreak
+    d r r %40
+    g r r
+    c,! r r
+    e r r
+    e f r
+    f2 g4 %45
+    c, e d
+    cis a r
+    d r r
+    d r r\noBreak
+    e r r \bar ".|:-|" %50
+    a r r \noBreak
+    gis r r
+    g r r
+    fis r r
+    f r r %55
+    e2 a4
+    d, e e,
+    a2 r4 \markMDC \bar ":|." %58 finis
+  }
+}
+
+IIIBassFigures = \figuremode {
+  r4 <6>2
+  q8 <\t> r2
+  <6>2 q4
+  r2 q4
+  <6\\> <6>2 %5
+  <6\\>2.
+  r4 <6 4> <5 _+>
+  r2.
+  r4 <6> <5>
+  r2. %10
+  r4 <6> <5>
+  r2.
+  <_!>4 <6> <5>
+  r2 <6>4
+  <_+>2 <6>4 %15
+  r <5\+> <6>
+  r <6 4> <5 _+>
+  <\l>2 \once \bassFigureExtendersOn q4
+  <_+> <5 2> <\t \t>
+  <6\\>2. %20
+  r4 <5! 2> <\t \t>
+  <6>2.
+  r
+  <6 4>4 <5 3>2
+  r4 <6>2 %25
+  q8 <\t>4. <6>4
+  r q2
+  q2.
+  r2 <6 4>8 <5 3>
+  r2. %30
+  r
+  <5 2>4 <\t \t>2
+  r4 <_+> <\t>
+  <5 2> <\t \t>2
+  r2 <2>4 %35
+  <5! 2> <\t \t>2
+  r4 <6> q
+  <4> <_+>2
+  <8 _+>2 <7! \t>4
+  <4> <3>2 %40
+  <8> <7>4
+  <4> <3>2
+  <6>2.
+  <5->
+  r2 <_!>4 %45
+  r2.
+  <6>4 <8 _+> <7 \t>
+  <9 4> <8 3>2
+  <5> <6>4
+  <4> <_+>2 %50
+  <5> <6>4
+  <7> <6>2
+  <\t>2.
+  <7>4 <6>2
+  <\t>2. %55
+  <7 _+>
+  r4 <_+>2
+  r2. %58 finis
+}
