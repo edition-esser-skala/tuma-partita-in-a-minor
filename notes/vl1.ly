@@ -65,3 +65,59 @@ IViolinoI = {
     a4 a, r\fermata \bar "|." %59 finis
   }
 }
+
+IIViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \minor \time 2/4 \tempoII
+    \partial 8 a''8\fE a,16 c h a h8 e
+    c a r e'\p
+    f( e) e( dis)
+    \appoggiatura dis e4 r8 e,\f
+    fis16 a gis fis gis h a gis %5
+    a8 c! r h
+    c16 e d c d f e d
+    e8 g r a\p
+    h,( g') r a,
+    g( e') r f, %10
+    e( c') g'16\fE e d c
+    a' f e d h' g f e
+    c'8 c,16 f e8 d\trill \noBreak
+    c4 r8 \bar ":|.|:" g \noBreak
+    c16 e d c d8 g \noBreak %15
+    e c r a
+    d16 f e d e8 a
+    f d r h
+    e16 g fis e fis8 h
+    g e r c'\p %20
+    c( h) h( ais)
+    \appoggiatura ais h4 r8 f!
+    f( e) e( dis)
+    e16\f d c h a g fis e
+    h'' a g fis e dis cis? h %25
+    \appoggiatura g'4 fis2\trill
+    e4 r
+    R2
+    r8 g,16 e e'4
+    f!8 f, r4 %30
+    r8 f16 d d'4
+    e8 e, r4
+    r8 c'' c( h)
+    r h h( a)
+    r a a( gis) %35
+    c,( h) r f\p
+    f( e) e( dis)
+    e4 r8 f'
+    h,( e) r d
+    g,!( c) r h %40
+    e,( a) r e'
+    fis16 a gis fis gis h a gis
+    a8 a, r f'
+    c4 h\trill
+    a r8 \markCritnote e'\fE %45
+    fis16 a gis fis gis h a gis
+    a8 a, r f'
+    c4 h\trill
+    a r8\fermata \bar ":|." %49 finis
+  }
+}

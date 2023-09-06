@@ -6,6 +6,10 @@
 \include "ees_articulate.ly"
 
 
+markCritnote = {
+  \once \override Score.RehearsalMark.self-alignment-X = #LEFT
+  \mark \markup \normalsize \critnote
+}
 markMDC = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Menuet da capo"
@@ -13,6 +17,7 @@ markMDC = {
 
 
 tempoI = \tempoMarkup "Andante"
+tempoII = \tempoMarkup "Allegro"
 
 
 \include "notes/vl1.ly"

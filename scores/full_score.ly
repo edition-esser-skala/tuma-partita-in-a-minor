@@ -6,34 +6,63 @@
 \paper { systems-per-page = #4 }
 
 \book {
+  % \bookpart {
+  %   \section "I" "Andante"
+  %   \addTocEntry
+  %   \paper { indent = 2\cm page-count = #3 }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "Violino"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "I"
+  %             \IViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "II"
+  %             \IViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Basso"
+  %           % \transpose c c,
+  %           \IBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \IBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "I" "Andante"
+    \section "II" "Allegro"
     \addTocEntry
-    \paper { indent = 2\cm page-count = #3 }
     \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "Violino"
+            \set GrandStaff.instrumentName = "vl"
             \new Staff {
-              \set Staff.instrumentName = "I"
-              \IViolinoI
+              \set Staff.instrumentName = "1"
+              \IIViolinoI
             }
             \new Staff {
-              \set Staff.instrumentName = "II"
-              \IViolinoII
+              \set Staff.instrumentName = "2"
+              \IIViolinoII
             }
           >>
           \new Staff {
-            \set Staff.instrumentName = "Basso"
+            \set Staff.instrumentName = "b"
             % \transpose c c,
-            \IBassoContinuo
+            \IIBassoContinuo
           }
         >>
-        \new FiguredBass { \IBassFigures }
+        \new FiguredBass { \IIBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 110 }
     }
   }
 }

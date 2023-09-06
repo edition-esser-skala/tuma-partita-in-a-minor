@@ -127,3 +127,111 @@ IBassFigures = \figuremode {
   r4 <6 5> <_+>
   r2. %59 finis
 }
+
+IIBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key a \minor \time 2/4 \tempoII
+    \partial 8 r8 r a'4\fE gis8
+    a4 r8 gis\pE
+    a g f4
+    e r8 cis\fE
+    d4 h %5
+    a r8 g'!
+    e4 d
+    c f
+    g\p f
+    e d %10
+    c e\f
+    f g
+    a g8 g, \noBreak
+    c4 r8 \bar ":|.|:" r \noBreak
+    r c'4 h8 \noBreak %15
+    c4 r
+    r8 d4 cis8
+    d4 r
+    r8 e4 dis8
+    e4 r8 e\p %20
+    d!4 c
+    h r8 a
+    g4 fis
+    e\f r
+    r r8 g %25
+    a fis h h,
+    e4 r
+    r8 e4 dis8
+    e4 r
+    r8 d!4 cis8 %30
+    d4 r
+    r8 c!4 h8
+    c4 d
+    g c,
+    f h, %35
+    e r8 a,\p
+    g!4 f
+    e r8 a'
+    g!4 f
+    e d %40
+    c r8 c
+    d4 h
+    a8 a16 h c8 d
+    e4 e,
+    a r8 \markCritnote c\fE %45
+    d4 h
+    a8 a16 h c8 d
+    e4 e,
+    a r8\fermata \bar ":|." %49 finis
+  }
+}
+
+IIBassFigures = \figuremode {
+  r8 r <3> <2> <6>
+  r4. <6>8
+  q q <7> <6\\>
+  <7\\ 4> <8 _+>4 <6>8
+  <_+>4 <6\\> %5
+  <_!>4. <5>8
+  <6>4 q
+  r2
+  r4 <7>8 <8>
+  r4 <7>8 <8> %10
+  r4 <6>
+  r2
+  <5>8 <6> <6 4> <5 3>
+  r2
+  r8 <3> <2> <6> %15
+  r2
+  r8 <3> <2> <6>
+  r2
+  r8 <3> <2\+> <6 _+>
+  r4. <6>8 %20
+  <7 _+> <6 \t> <7> <6\\>
+  <7\\ 4> <8 _+>4 <6!>8
+  <7> <6> <7> <6\\>
+  r2
+  r4. <6>8 %25
+  <6\\ 5>4 <5\+ _+>
+  r2
+  r8 <3> <2\+> <6 _+>
+  r2
+  r8 <_!> <2> <6> %30
+  r2
+  r8 <3> <2> <6>
+  r4 <7>8 <6>
+  r4 <7>8 <6>
+  r4 <7>8 <6\\> %35
+  <6 4> <5 _+>4 <6>8
+  <7> <6> <7> <6\\>
+  <_+>4. <6>8
+  q4 <5 3>8 <6 4>
+  <6>4 <5 _+>8 <6 4\+> %40
+  <6>4. <\t>8
+  <_+>4 <6\\>
+  r4 <6>8 <_!>
+  <6 4>4 <5 _+>
+  r4. <6>8 %45
+  <_+>4 <6\\>
+  r4 <6>8 <_!>
+  <6 4>4 <5 _+>
+  r4. %49 finis
+}
