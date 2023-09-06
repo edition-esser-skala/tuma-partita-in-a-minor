@@ -1,0 +1,15 @@
+composer:
+  last: Tůma
+  first: František Ignác Antonín
+title: Partita in A minor
+genre: instrumental
+scoring: 2 vl, b
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2968-P-508
+    rism:  1001167099
+    url: https://digital.slub-dresden.de/id181767191X
+    license: public domain
+    principal: true
